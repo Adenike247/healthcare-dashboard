@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className={classes.pageRoot}>
       <Navbar />
-      <div>
+      <div className={classes.mainRoot}>
         <Sidebar/>
       </div>
     </div>
