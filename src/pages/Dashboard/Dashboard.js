@@ -1,10 +1,15 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import classes from './Dashboard.module.css'
+import Sidebar from '../../components/Sidebar';
 
 const Dashboard = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className={classes.pageRoot}>
+      <Navbar />
+      <div>
+        <Sidebar/>
+      </div>
     </div>
   )
 }

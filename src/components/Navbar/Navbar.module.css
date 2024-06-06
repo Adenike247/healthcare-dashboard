@@ -1,0 +1,48 @@
+.navbarContainer{
+   display: flex;
+     align-items: center;
+   justify-content: space-between;
+   background: #fff;
+   padding: 12px 32px;
+   border-radius: 50px;
+}
+
+.navItemContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.seniorProfileContainer{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.seniorProfile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.name{
+    font-size: 14px;
+    font-weight: bold;
+    color: #072635;
+}
+.position{
+    font-size: 14px;
+    color: #707070;
+}
+.divider{
+    width: 1px;
+    height: 44px;
+    background: #EDEDED;
+}
+.action{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}

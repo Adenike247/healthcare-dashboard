@@ -1,0 +1,30 @@
+.pageRoot {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #072635;
+}
+.profileName {
+  padding-bottom: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #072635;
+}
+.profileContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profileWrapper {
+  display: flex;
+  gap: 12px;
+}

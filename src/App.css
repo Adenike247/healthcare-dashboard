@@ -1,7 +1,12 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Manrope';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
-
+* ::-webkit-scrollbar {
+  display: none;
+}
+body{
+  background: #F6F7F8;
+}
