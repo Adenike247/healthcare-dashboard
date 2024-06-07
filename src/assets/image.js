@@ -12,6 +12,7 @@ export const anderson = require("./png/Layer 4.png");
 export const thompson = require("./png/Layer 5.png");
 export const evans = require("./png/Layer 7.png");
 export const nolans = require("./png/pexels-photo-1222271.png");
+export const taylor2 = require("./png/taylor.png");
 
 
 

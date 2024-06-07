@@ -1,0 +1,56 @@
+.pageRoot {
+  padding: 32px 20px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.imageContainer {
+  padding-bottom: 24px;
+  padding-left: 83px;
+  padding-right: 83px;
+}
+.patientName {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #072635;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.detailSection {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.iconWrapper {
+  width: 62px;
+  height: 62px;
+  background-color: #f6f7f8;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.upperText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #072635;
+  padding-bottom: 4px;
+}
+.bottomText {
+  color: #072635;
+  font-size: 14px;
+  font-weight: bold;
+}
+.showBtnWrapper {
+  padding: 11px 40px;
+  background: #01f0d0;
+  border-radius: 41px;
+  border: none;
+  margin-top: 40px;
+  margin-left: 83px;
+  margin-right: 83px;
+}
+.showBtn {
+  font-weight: bold;
+  font-size: 14px;
+  color: #072635;
+}

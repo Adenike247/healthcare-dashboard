@@ -3,4 +3,5 @@
 }
 .mainRoot{
     padding-top: 2em;
+    display: flex;
 }
