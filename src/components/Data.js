@@ -112,18 +112,18 @@ export const sideBarData = [{
 ]
 export const patientData = [{
     id: 1,
-    icon: <BirthIcon/>,
+    icon: <BirthIcon />,
     upperText: 'Date Of Birth',
     bottomText: 'August 23, 1996'
 },
 {
     id: 2,
-    icon:<FemaleIcon/>,
+    icon: <FemaleIcon />,
     upperText: 'Gender',
     bottomText: 'Female'
 }, {
     id: 3,
-    icon: <PhoneIcon/>,
+    icon: <PhoneIcon />,
     upperText: 'Contact Info.',
     bottomText: '(415) 555-1234'
 }, {
@@ -134,8 +134,26 @@ export const patientData = [{
 },
 {
     id: 4,
-    icon: <InsuranceIcon/>,
+    icon: <InsuranceIcon />,
     upperText: 'Insurance Provider',
     bottomText: 'Sunrise Health Assurance'
+},
+]
+export const labResult = [{
+    id: 1,
+    testName: 'Blood Tests'
+},
+{
+    id: 2,
+    testName: 'CT Scans'
+}, {
+    id: 3,
+    testName: 'Radiology Reports'
+}, {
+    id: 4,
+    testName: 'X-Rays'
+}, {
+    id: 5,
+    testName: 'Urine Test'
 },
 ]

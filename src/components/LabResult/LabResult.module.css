@@ -1,0 +1,24 @@
+.pageRoot{
+    margin-top: 32px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+.header{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #072635;
+}
+.testWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-left: 18px;
+    padding-top: 24px;
+}
+.testName{
+    font-size: 13px;
+    font-weight: 500;
+    color: #072635;
+}

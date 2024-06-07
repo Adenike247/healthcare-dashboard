@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import classes from './Dashboard.module.css'
 import Sidebar from '../../components/Sidebar';
 import PatientProfile from '../../components/PatientProfile';
+import LabResult from '../../components/LabResult/LabResult';
 
 const Dashboard = () => {
   return (
@@ -11,7 +12,8 @@ const Dashboard = () => {
       <div className={classes.mainRoot}>
         <Sidebar />
         <div>
-          <PatientProfile/>
+          <PatientProfile />
+          <LabResult/>
         </div>
       </div>
     </div>
