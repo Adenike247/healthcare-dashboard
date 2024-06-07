@@ -157,3 +157,28 @@ export const labResult = [{
     testName: 'Urine Test'
 },
 ]
+export const tableData = [{
+    id: 1,
+    problemDiagnosis: 'Hypertension',
+    description: 'Chronic high blood pressure',
+    status:'Under Observation'
+},
+    {
+        id: 2,
+        problemDiagnosis: 'Type 2 Diabetes',
+        description: 'Insulin resistance and elevated blood sugar',
+        status: 'Cured'
+    },
+    {
+        id: 3,
+        problemDiagnosis: 'Asthma',
+        description: 'Recurrent episodes of bronchial constriction',
+        status: 'Inactive'
+    },
+    {
+        id: 4,
+        problemDiagnosis: 'Hypertension',
+        description: 'Chronic high blood pressure',
+        status: 'Under Observation'
+    },
+]
