@@ -1,0 +1,22 @@
+.healtReportContainer{
+    border-radius: 12px;
+    /* background: #E0F3FA; */
+    padding: 16px;
+
+}
+.title{
+   font-weight: 500; 
+   color: #072635;
+   padding-top: 16px;
+}
+.result{
+    font-size: 30px;
+    color: #072635;
+    font-weight: 800;
+    padding-bottom: 17px;
+}
+.status{
+   font-size: 14px; 
+   color: #072635;
+   font-weight: 500;
+}

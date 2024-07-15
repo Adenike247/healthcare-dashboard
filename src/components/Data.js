@@ -1,4 +1,4 @@
-import { anderson, brown, davis, evans, johnson, martinez, mitchell, nolans, samantha, taylor, thompson, williams } from "../assets/image";
+import { anderson, brown, davis, evans, johnson, martinez, mitchell, nolans, respiration, samantha, taylor, temperature, thompson, williams } from "../assets/image";
 import BirthIcon from "../assets/svg/BirthIcon";
 import Calender from "../assets/svg/Calender";
 import FemaleIcon from "../assets/svg/FemaleIcon";
@@ -180,5 +180,30 @@ export const tableData = [{
         problemDiagnosis: 'Hypertension',
         description: 'Chronic high blood pressure',
         status: 'Under Observation'
+    },
+]
+export const checkupData = [{
+    id: 1,
+    logo: respiration,
+    title:'Respiratory Rate',
+    result: '20 bpm',
+    status: 'Normal',
+    background:'#E0F3FA'
+},
+    {
+        id: 2,
+        logo: temperature,
+        title: 'Temperature',
+        result: '98.6°F',
+        status: 'Normal',
+        background: '#FFE6E9'
+    },
+    {
+        id: 3,
+        logo: respiration,
+        title: 'Heart Rate',
+        result: '78 bpm',
+        status: 'Lower than Average',
+        background: '#FFE6F1'
     },
 ]
