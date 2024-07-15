@@ -1,8 +1,11 @@
 .pageRoot{
     padding: 18px;
+ 
 }
 .mainRoot{
     padding-top: 2em;
     display: flex;
+    gap: 32px;
     justify-content: space-between;
+   
 }

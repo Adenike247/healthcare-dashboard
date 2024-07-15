@@ -1,10 +1,12 @@
+.diagnosisPage{
+    margin-bottom: 20px;
+}
 .checkupContainer{
     display: flex;
     gap: 21px;
    
-    /* justify-content: space-between; */
 }
 .checkupWrapper{
     min-width: 228px;
-  
+;
 }

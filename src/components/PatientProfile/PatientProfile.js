@@ -1,8 +1,6 @@
 import React from 'react'
-import Calender from '../../assets/svg/Calender'
 import classes from './PatientProfile.module.css'
 import { taylor2 } from '../../assets/image'
-import BirthIcon from '../../assets/svg/BirthIcon'
 import { patientData } from '../Data'
 const PatientProfile = () => {
   return (
